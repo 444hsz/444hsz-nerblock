@@ -1,92 +1,102 @@
 body {
-    background-color: #f8f8f8;
-    margin: 0px;
-    font-size: 16px;
+  background-color: #f8f8f8;
+  margin: 0px;
+  font-size: 16px;
 }
 .logo {
-    height: auto;
-    width: 45%;
+  height: auto;
+  width: 45%;
 }
 .separator {
-    width: 100%;
-    border-top: 2px groove white;
-    margin: 5px -5px 5px -3px;
+  width: 100%;
+  border-top: 2px groove white;
+  margin: 5px -5px 5px -3px;
 }
 #wrapper {
-    margin: 0px 0px;
-    width: 275px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-height: 600px;
-    font-size: 0.75em;
+  margin: 0px 0px;
+  width: 275px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-height: 600px;
+  font-size: 0.75em;
 }
 #quote {
-    padding: 8px;
-    text-align: justify;
-    font-style: italic;
-    display: none;
-    font-size: 0.9em;
+  padding: 8px;
+  text-align: justify;
+  font-style: italic;
+  display: none;
+  font-size: 0.9em;
 }
 #block_counts {
-    display: none;
-    margin-bottom: 1em;
+  display: none;
+  margin-bottom: 1em;
 }
 #titletext {
-    padding: 8px 8px 2px 0px;
-    text-align: center;
+  padding: 8px 8px 2px 0px;
+  text-align: center;
 }
 #separator0 {
-    display: none;
+  display: none;
 }
 .box {
-    margin: 5px 3px 5px 0px;
-    background: #f7f6f2;
-    padding: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.10);
+  margin: 5px 3px 5px 0px;
+  background: #f7f6f2;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .header {
-    font-weight: bold;
+  font-weight: bold;
 }
 .block_count_number {
-    font-weight: bold;
-    color: red;
+  font-weight: bold;
+  color: red;
 }
 .menu-entry:hover {
-    -webkit-transition: all 0.3s ease-out;
-    background: #e2e2e2;
+  transition: all 0.3s ease-out;
+  background: #e2e2e2;
 }
 .menu-entry {
-    display: none;
-    padding: 3px 4px 3px 8px;
-    cursor: pointer;
+  display: none;
+  padding: 3px 4px 3px 8px;
+  cursor: pointer;
 }
 #link_open {
-    padding: 0px 0px 3px 8px;
-    display: inline-block;
+  display: inline-flex;
+  width: 75px;
 }
 a:hover {
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    color: red;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: red;
 }
 a {
-    color: #4D7BD6;
-    text-decoration: none;
+  color: #4d7bd6;
+  text-decoration: none;
 }
 .button {
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 36px;
-    cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 36px;
+  cursor: pointer;
+}
+
+.hsz-logo {
+  width: 100%;
+}
+
+#div_slideout > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  font-size: 10px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    #wrapper {
-        min-width: 275px;
-        font-size: 1em;
-        width: auto;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #wrapper {
+    min-width: 275px;
+    font-size: 1em;
+    width: auto;
+  }
 }
