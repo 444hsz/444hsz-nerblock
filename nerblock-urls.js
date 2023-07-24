@@ -1,15 +1,14 @@
 var nerSites = {
-  "domains": [
+  domains: [
     "*.kormany.hu",
     "*.m1.hu",
     "*.hirtv.hu",
     "*.tv2.hu",
     "*.echotv.hu",
-    "*.origo.hu", 
+    "*.origo.hu",
     "*.hirado.hu",
     "*.magyaridok.hu",
     "*.karcfm.hu",
-    "*.blikk.hu",
     "*.888.hu",
     "*.pestisracok.hu",
     "*.bama.hu",
@@ -39,7 +38,7 @@ var nerSites = {
     "*.magyarnemzet.hu",
     "*.vadhajtasok.hu",
   ],
-  "facebook": [
+  facebook: [
     "*.facebook.com/OrigoHirek",
     "*.facebook.com/hirtv",
     "*.facebook.com/888ponthu",
@@ -68,5 +67,5 @@ var nerSites = {
     "*.facebook.com/tenyek",
     "*.facebook.com/magyarnemzet.hu",
     "*.facebook.com/Vadhajtasok",
-  ]
-}
+  ],
+};
