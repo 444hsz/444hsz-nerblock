@@ -1,10 +1,10 @@
 {
   "name": "NERBlock",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "manifest_version": 2,
-  "author": "NERBlock Developer",
-  "description": "A Nemzeti Együttműködés Rendszerének (N.E.R.) propagandáját terjesztő weboldalak blokkolásához.",
-  "permissions": ["storage", "webRequest", "webRequestBlocking", "<all_urls>"],
+  "author": "nerblock",
+  "description": "A Nemzeti Együttműködés Rendszerének (NER) propagandáját terjesztő weboldalak blokkolásához.",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "options_ui": {
     "page": "nerblock-options.html"
   },
