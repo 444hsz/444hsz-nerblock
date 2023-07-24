@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>NERBlock Popup</title>
-        <link rel="stylesheet" href="./nerblock-popup.css">
-        <script src="./3rdparty/jquery-3.3.1.min.js"></script>
-        <script src="./nerblock-popup.js"></script>
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="menu_items">
-                <div id="titletext">
-                    <img src='./images/logo.png' class='logo'>
-                    <img src='./images/button-close.png' id="closeButton" class='button' title="Bezárás">
-                </div>
-                <div id="quote">"Nem a jobb vagy a baloldal a problémám, a politikai nézetek, hanem az a mérhetetlen és sötét gonosz hazugság, amiben tartják az országot, és ezzel borzasztó szellemi károkat okoznak. Ez a gyűlöletemnek az alapja."<br/>- Wahorn András</div>
-                <div id="block_counts" class="box">
-                    <div class="header">Blokkolt NER propagandaoldalak:</div>
-                    <div style="padding:2px 0px 0px 2px;">
-                        <span><a class="block_count_number" id="page_blocked_count">0</a> ezen az oldalon</span>
-                        <span style="float:right"><a class="block_count_number" id="total_blocked_count">0</a> <a href="#" class="show_blocklist" id="show_blocklist" title="Blokkolt oldalak listájának megnyitása">összesen</a></span>
-                    </div>
-                </div>
-                <div id="div_tab_pause_nerblock" class="menu-entry">Blokkolás szüneteltetése ezen a fülön</div>
-                <div id="div_tab_unpause_nerblock" class="menu-entry">Blokkolás bekapcsolása ezen a fülön</div>
-                <div id="div_global_pause_nerblock" class="menu-entry">Blokkolás szüneteltetése minden fülön</div>
-                <div id="div_global_unpause_nerblock" class="menu-entry">Blokkolás bekapcsolása minden fülön</div>
-                <div id="separator0" class="separator"></div>
-            </div>
-            <div id="div_slideout" style="cursor: pointer;">
-                <div style="margin: 5px 0px;">
-                  <a id="link_open" target="_blank" href="https://goo.gl/forms/gbMRK6z5OZHJd1Q43">Kimaradt egy oldal a blokklistáról? Jelentsd be!</a>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NERBlock Popup</title>
+    <link rel="stylesheet" href="./nerblock-popup.css" />
+    <script src="./3rdparty/jquery-3.3.1.min.js"></script>
+    <script src="./nerblock-popup.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="menu_items">
+        <div id="titletext">
+          <img src="./images/logo.png" class="logo" />
+          <img
+            src="./images/button-close.png"
+            id="closeButton"
+            class="button"
+            title="Bezárás"
+          />
         </div>
-    </body>
+        <div id="block_counts" class="box">
+          <div class="header">Blokkolt NER propagandaoldalak:</div>
+          <div style="padding: 2px 0px 0px 2px">
+            <span
+              ><a class="block_count_number" id="page_blocked_count">0</a> ezen
+              az oldalon</span
+            >
+            <span style="float: right"
+              ><a class="block_count_number" id="total_blocked_count">0</a>
+              <a
+                href="#"
+                class="show_blocklist"
+                id="show_blocklist"
+                title="Blokkolt oldalak listájának megnyitása"
+                >összesen</a
+              ></span
+            >
+          </div>
+        </div>
+        <div id="div_tab_pause_nerblock" class="menu-entry">
+          Blokkolás szüneteltetése ezen a fülön
+        </div>
+        <div id="div_tab_unpause_nerblock" class="menu-entry">
+          Blokkolás bekapcsolása ezen a fülön
+        </div>
+        <div id="div_global_pause_nerblock" class="menu-entry">
+          Blokkolás szüneteltetése minden fülön
+        </div>
+        <div id="div_global_unpause_nerblock" class="menu-entry">
+          Blokkolás bekapcsolása minden fülön
+        </div>
+        <div id="separator0" class="separator"></div>
+      </div>
+      <div id="div_slideout" style="cursor: pointer">
+        <div style="margin: 5px 0px">
+          <a
+            id="link_open"
+            target="_blank"
+            href="https://goo.gl/forms/gbMRK6z5OZHJd1Q43"
+            >Kimaradt egy oldal a blokklistáról? Jelentsd be!</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
