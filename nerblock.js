@@ -195,18 +195,12 @@ chrome.webRequest.onBeforeRequest.addListener(
       cancel: isNERSite,
     };
     if (isNERSite) {
-      console.log(
-        "Request to a website containing NER brainwashing propaganda has been intercepted: " +
-          details.url +
-          " (" +
-          details.type +
-          ")"
-      );
+      console.log(`Nerblock blocked: ${details.url} (${details.type})`);
       if (!isEdge) {
         switch (details.type) {
           case "sub_frame":
             ret = {
-              redirectUrl: chrome.extension.getURL(
+              redirectUrl: chrome.runtime.getURL(
                 "nerblock-embedblocked.html?url=" +
                   encodeURIComponent(details.url)
               ),
@@ -214,7 +208,7 @@ chrome.webRequest.onBeforeRequest.addListener(
             break;
           case "main_frame":
             ret = {
-              redirectUrl: chrome.extension.getURL(
+              redirectUrl: chrome.runtime.getURL(
                 "nerblock-pageblocked.html?url=" +
                   encodeURIComponent(details.url)
               ),
