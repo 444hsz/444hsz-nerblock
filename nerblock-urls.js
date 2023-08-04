@@ -37,6 +37,7 @@ var nerSites = {
     "*.tenyek.hu",
     "*.magyarnemzet.hu",
     "*.vadhajtasok.hu",
+    "*.tv2play.hu",
   ],
   facebook: [
     "*.facebook.com/OrigoHirek",
